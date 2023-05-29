@@ -4,7 +4,7 @@
 export class HttpError extends Error {
   statusCode: number;
 
-  constructor(message = 'Unable to complete your request', statusCode: number) {
+  constructor(message: object | string, statusCode: number) {
     super(`${message}`);
     this.statusCode = statusCode;
   }

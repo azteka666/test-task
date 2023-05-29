@@ -12,12 +12,10 @@ class OpenTripService {
         'x-api-key': process.env.OPEN_TRIP_PLANNER_API_KEY,
       },
     });
-
-    return this;
   }
 
   async getOpenTripRoutePlan(params: IRoutePlanParams): Promise<IRoutePlan> {
-    const { data } = await this.API.get(`routers/default/plan`, {
+    const { data } = await this.API.get(`/otp/routers/default/plan`, {
       params,
     });
 

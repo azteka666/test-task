@@ -8,8 +8,6 @@ class RoutesService {
 
   constructor() {
     this.openTripService = new OpenTripService();
-
-    return this;
   }
 
   async getRouteWithData(params: IRoutePlanParams): Promise<IRouteWithData> {
