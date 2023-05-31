@@ -1,3 +1,7 @@
+API URL https://1v9jglqeyg.execute-api.us-east-1.amazonaws.com/dev/routes/plan
+API URL WITH TEST DATA - https://1v9jglqeyg.execute-api.us-east-1.amazonaws.com/dev/routes/plan?fromPlace=60.148156622692035,24.987887975719225&toPlace=60.19461994799159,24.870836734771732&time=8:40am&date=06-03-2023&mode=TRANSIT&arriveBy=false&wheelchair=false&showIntermediateStops=true&locale=en
+
+
 # Serverless - AWS Node.js Typescript
 ## Installation/deployment instructions
 
